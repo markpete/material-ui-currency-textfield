@@ -21,7 +21,8 @@
     "deploy": "gh-pages -d styleguide",
     "transpile": "./node_modules/@babel/cli/bin/babel.js src/components/CurrencyTextField -d dist --copy-files",
     "prepublishOnly": "npm run transpile",
-    "publish-demo": "npm run build && npm run deploy"
+    "publish-demo": "npm run build && npm run deploy",
+    "prepare": "prepublishOnly"
   },
   "repository": {
     "type": "git",
