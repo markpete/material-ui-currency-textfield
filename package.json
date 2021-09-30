@@ -1,6 +1,6 @@
 {
-  "name": "@unicef/material-ui-currency-textfield",
-  "version": "0.8.6",
+  "name": "@kyle-beikirch/material-ui-currency-textfield",
+  "version": "1.0.0",
   "description": "Currency input textfield for react with Material-ui style",
   "keywords": [
     "material design",
@@ -91,5 +91,11 @@
     "@mui/material": "^5.0.0",
     "@mui/styles": "^5.0.0",
     "autonumeric": "^4.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/unicef/material-ui-currency-textfield/issues"
+  },
+  "directories": {
+    "example": "example"
   }
 }
